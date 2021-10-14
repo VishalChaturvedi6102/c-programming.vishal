@@ -1,13 +1,11 @@
-
+// C-program to enter a floating number in exponential form.
 #include <stdio.h>
-#include <stdlib.h>
- 
 int main() 
 {
-  float input;
+  float f1;
   printf("Enter a floating point number :");
-  scanf("%f", &input);
-  printf("The entered number in Exponential form '%e'\n", input);
+  scanf("%f", &f1);
+  printf("The entered number in Exponential form '%e'\n", f1);
 
   return 0;
 }
