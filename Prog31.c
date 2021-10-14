@@ -5,8 +5,6 @@
 int main()
 {
     float P, R, T, CI;
-
-    /* Input principle, time and rate */
     printf("Enter principle (amount): ");
     scanf("%f", &P);
 
@@ -16,10 +14,7 @@ int main()
     printf("Enter rate: ");
     scanf("%f", &R);
 
-    /* Calculate compound interest */
     CI = P* (pow((1 + R / 100), T));
-
-    /* Print the resultant CI */
     printf("Compound Interest = %f", CI);
 
     return 0;
