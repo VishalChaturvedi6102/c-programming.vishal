@@ -3,17 +3,11 @@
 
 int main()
 {
-    float celsius, fahrenheit;
-
-    /* Input temperature in fahrenheit */
+    float cel, fah;
     printf("Enter temperature in Fahrenheit: ");
-    scanf("%f", &fahrenheit);
-
-    /* Fahrenheit to celsius conversion formula */
-    celsius = (fahrenheit - 32) * 5 / 9;
-
-    /* Print the value of celsius */
-    printf("%.2f Fahrenheit = %.2f Celsius", fahrenheit, celsius);
+    scanf("%f", &fah);
+    cel = (fah - 32) * 5 / 9;
+    printf("%.2f Fahrenhite = %.2f Celsius", fah, cel);
 
     return 0;
 }
