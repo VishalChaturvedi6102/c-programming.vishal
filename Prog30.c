@@ -5,7 +5,6 @@ int main()
 {
     float P, T, R, SI;
 
-    /* Input principle, rate and time */
     printf("Enter principle (amount): ");
     scanf("%f", &P);
 
@@ -13,12 +12,8 @@ int main()
     scanf("%f", &T);
 
     printf("Enter rate: ");
-    scanf("%f", &T);
-
-    /* Calculate simple interest */
+    scanf("%f",&R);
     SI = (P * T * T) / 100;
-
-    /* Print the resultant value of SI */
     printf("Simple Interest = %f", SI);
 
     return 0;
