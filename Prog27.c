@@ -3,19 +3,12 @@
 
 int main()
 {
-    float base, height, area;
-
-    /* Input base and height of triangle */
+    float b, h, area;
     printf("Enter base of the triangle: ");
-    scanf("%f", &base);
+    scanf("%f", &b);
     printf("Enter height of the triangle: ");
-    scanf("%f", &height);
-
-    /* Calculate area of triangle */
-    area = (base * height) / 2;
-
-    /* Print the resultant area */
-    printf("Area of the triangle = %.2f sq. units", area);
-
+    scanf("%f", &h);
+    area = (b * h) / 2;
+    printf("Area of the triangle = %.2f", area);
     return 0;
 }
